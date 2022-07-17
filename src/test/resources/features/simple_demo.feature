@@ -7,7 +7,7 @@ Feature: The application should be running
     Then I should see the results
 
   @regression @test2
-  Scenario: another search
+  Scenario: another search s
     Given I am on the home page
     When I search for "useless box"
     Then I should see more results
